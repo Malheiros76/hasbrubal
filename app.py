@@ -62,7 +62,7 @@ def agora_local():
 # --- Conexão com MongoDB ---
 @st.cache_resource
 def conectar():
-    uri = "mongodb+srv://bibliotecaluizcarlos:KAUOQ9ViyKrXDDAl@cluster0.npyoxsi.mongodb.net/?retryWrites=true&w=majority"
+    uri = "mongodb+srv://bibliotecaluizcarlos:JS4pYupzQB1JzNk6@cluster0.1f8ipub.mongodb.net/"
     cliente = MongoClient(uri)
     return cliente["escola"]
 
