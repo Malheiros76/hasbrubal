@@ -1,3 +1,4 @@
+ymongo
 pandas
 streamlit
 python-docx
@@ -5,3 +6,4 @@ fpdf
 pillow
 reportlab
 fpdf2
+pytz
