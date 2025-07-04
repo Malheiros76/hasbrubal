@@ -10,8 +10,10 @@ import urllib.parse
 import uuid
 import pytz
 
-st.set_page_config(page_title="Sistema Escolar - CCMLC by Malheiros V2.0.3 ", layout="centered")
-
+st.set_page_config(
+    page_title="Sistema Escolar - CCMLC by Malheiros V2.0.3",
+    layout="centered"
+)
 # --- Estilização Visual ---
 st.markdown("""
     <style>
